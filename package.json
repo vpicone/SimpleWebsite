@@ -1,14 +1,15 @@
 {
   "name": "gettingstarted",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple hosted website using serve and now from Zeit",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "now-start": "serve",
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "deploy": "npm install && now"
   },
-  "author": "",
+  "author": "VPP",
   "license": "ISC",
   "dependencies": {
     "nodemon": "^1.12.1",

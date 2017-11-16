@@ -1,0 +1,1 @@
+In the terminal type npm run deploy.
