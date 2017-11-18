@@ -1,0 +1,95 @@
+{
+  "name": "vpicone/SimpleWebsite",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "Simple Website Now",
+  "branch": "",
+  "style": {
+    "name": "Brutalist",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BasicHeader",
+      "article": "article/MarkdownArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace",
+    "heading": {},
+    "typeScale": [
+      48,
+      32,
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "fluid": true
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/vpicone/SimpleWebsite",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/gettingstarted",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "SimpleWebsite",
+      "subhead": "A simple website template hosted on now.sh",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "SimpleWebsite: A simple website template hosted on now.sh",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "vpicone",
+          "repo": "SimpleWebsite"
+        }
+      ],
+      "text": "v1.0.0"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<p>In the terminal type npm run deploy.</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/vpicone/SimpleWebsite",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/vpicone",
+          "text": "vpicone"
+        }
+      ]
+    }
+  ]
+}
